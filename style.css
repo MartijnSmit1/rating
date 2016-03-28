@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    background-color: blueviolet;
+}
+
+.geen {
+    
+ width: 49px;
+    height: 47px;
+    display: inline-block;
+    background-image: url(http://martijnsmit1.16mb.com/fop/rating/ster1.png);
+    
+}
+
+.geen:hover {
+    
+ cursor: pointer;
+   
+    background-image: url(http://martijnsmit1.16mb.com/fop/rating/ster2.png);
+    
+}
+
+
+.geen span {
+ width: 0px;
+    height: 47px;
+    display: inline-block;
+   background-image:url(http://martijnsmit1.16mb.com/fop/rating/ster3.png);
+}
+
+
+#validatie img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}
